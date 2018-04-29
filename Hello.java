@@ -7,7 +7,7 @@ package hello;
 
 /**
  *
- * @author flip7_000
+ * @author
  */
 public class Hello {
 
@@ -15,7 +15,11 @@ public class Hello {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.print("hello");
+       greeting("helllo");
+    }
+    
+    public static void  greeting(String msg){
+        System.out.println(msg);
     }
     
 }
